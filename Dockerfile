@@ -4,7 +4,7 @@ EXPOSE 8080
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 
-COPY target/newsPlatform-Scraper.war /usr/local/tomcat/webapps
+COPY target/newsPlatform-Scraper.war /usr/local/tomcat/webapps/scraper.war
 
 ENV JAVA_OPTS="-Xmx2g"
 
