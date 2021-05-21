@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="newsPlatform-Scraper:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>newsPlatform-Scraper</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="newsPlatform-Scraper.war">
+      <element id="artifact" artifact-name="newsPlatform-Scraper:war exploded" />
+    </root>
+  </artifact>
+</component>
